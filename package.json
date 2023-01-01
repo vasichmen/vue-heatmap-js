@@ -1,6 +1,18 @@
 {
   "name": "@vasichmen/vue-heatmap",
-  "version": "0.2.1",
+  "version": "0.2.3",
+  "keywords": [
+    "vuejs",
+    "heatmap",
+    "data visualization"
+  ],
+  "author": "vasichmen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasichmen/vue-heatmap-js"
+  },
+  "description": "VueJs 2 component for heatmap visualization",
   "main": "dist/vue-heatmap.umd.js",
   "module": "dist/vue-heatmap.esm.js",
   "unpkg": "dist/vue-heatmap.min.js",
