@@ -1,6 +1,6 @@
 {
   "name": "@vasichmen/vue-heatmap",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "dist/vue-heatmap.umd.js",
   "module": "dist/vue-heatmap.esm.js",
   "unpkg": "dist/vue-heatmap.min.js",
