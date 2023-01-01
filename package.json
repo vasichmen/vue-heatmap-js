@@ -1,0 +1,28 @@
+{
+  "name": "@vasichmen/vue-heatmap",
+  "version": "0.1.2",
+  "main": "dist/vue-heatmap.umd.js",
+  "module": "dist/vue-heatmap.esm.js",
+  "unpkg": "dist/vue-heatmap.min.js",
+  "browser": {
+    "./sfc": "src/vue-heatmap.vue"
+  },
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "scripts": {
+    "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/vue-heatmap.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/vue-heatmap.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/vue-heatmap.min.js"
+  },
+  "devDependencies": {
+    "rollup": "^1.17.0",
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "rollup-plugin-vue": "^5.0.1",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
