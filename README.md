@@ -1,6 +1,8 @@
 # vue-heatmap
 
-VueJs 2 wrapper for [heatmapjs](https://www.patrick-wied.at/static/heatmapjs/) library.<br>
+
+VueJs 2 component for heatmap visualization.  <br>
+Wrapper for [heatmapjs](https://www.patrick-wied.at/static/heatmapjs/) library.<br>
 [Project with an example of use](https://github.com/vasichmen/pvmonitor)
 
 ### Example
@@ -13,7 +15,7 @@ VueJs 2 wrapper for [heatmapjs](https://www.patrick-wied.at/static/heatmapjs/) l
   >
     <template #default>
       <div
-          class="ymap"
+          class="map"
           style="height:300px; width:300px"
       >
       </div>
