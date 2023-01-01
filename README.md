@@ -12,6 +12,7 @@ Wrapper for [heatmapjs](https://www.patrick-wied.at/static/heatmapjs/) library.<
 <template>
   <vue-heatmap
       :point-data="heatmapData"
+      :point-radius="30"
   >
     <template #default>
       <div
@@ -43,6 +44,11 @@ export default {
             x: 200,
             y: 200,
             value: 20,
+          },
+          {
+            x: 200,
+            y: 100,
+            value: 100,
           },
         ],
         max: 100,
