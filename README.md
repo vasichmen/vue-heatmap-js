@@ -5,6 +5,16 @@ VueJs 2 component for heatmap visualization.  <br>
 Wrapper for [heatmapjs](https://www.patrick-wied.at/static/heatmapjs/) library.<br>
 [Project with an example of use](https://github.com/vasichmen/pvmonitor)
 
+### Install
+
+```npm i @vasichmen/vue-heatmap```
+
+```javascript
+import VueHeatmap from '@vasichmen/vue-heatmap';
+...
+Vue.use(VueHeatmap);
+```
+
 ### Example
 
 ```vue
